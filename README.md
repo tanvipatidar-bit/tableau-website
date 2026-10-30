@@ -1,141 +1,127 @@
-# Electric Vehicle Market Analysis Using Tableau
+Electric Vehicle Market Analysis Using Tableau
 
-## 1. Project Overview
+1. Project Overview
 
-The Electric Vehicle (EV) Market Analysis project focuses on understanding the electric vehicle market through data analysis and visualization. The project uses Tableau to present information about EV manufacturers, sales, vehicle prices, battery technology, driving range, customer ratings, and estimated environmental benefits.
+The Electric Vehicle Market Analysis project focuses on studying the electric vehicle market using data analysis and visualization.
 
-Interactive dashboards and a data story have been developed to make the information easier to understand. A website has also been created to bring the visualizations together in one place.
+The project uses Tableau to analyze different aspects of electric vehicles, including manufacturers, sales, pricing, driving range, battery performance, and geographical distribution.
 
-## 2. Problem Statement
+An interactive Tableau Dashboard and Tableau Story have been created to present the analysis. A website has also been developed to provide easy access to both visualizations.
 
-The electric vehicle market includes multiple manufacturers, vehicle categories, pricing ranges, battery technologies, and performance indicators. Understanding these factors through raw data can be difficult.
+2. Problem Statement
 
-The main objective of this project is to analyze the available EV market dataset and present meaningful patterns through interactive visualizations. The project aims to help users explore market performance, compare vehicle characteristics, and understand estimated environmental benefits.
+The electric vehicle market includes different manufacturers, vehicle categories, prices, battery technologies, and performance features.
 
-## 3. Project Objectives
+Understanding all this information from raw data can be difficult.
 
-* Analyze electric vehicle market data.
-* Explore manufacturer sales and market performance.
-* Compare vehicle prices, battery capacity, and driving range.
-* Examine customer ratings and vehicle categories.
-* Explore estimated environmental benefits, including CO₂ savings.
-* Develop interactive dashboards using Tableau.
-* Present the analysis through a Tableau Story.
-* Create and deploy a website that provides access to the dashboards and story.
+This project aims to analyze EV market data and present meaningful information through interactive visualizations.
 
-## 4. Tools and Technologies
+3. Project Objectives
 
-* **Tableau:** Data visualization, dashboards, and storytelling.
-* **HTML:** Website structure and content.
-* **CSS:** Website styling and responsive layout.
-* **JavaScript:** Website navigation and interactive behavior.
-* **Visual Studio Code:** Writing and managing website files.
-* **Git:** Version control.
-* **GitHub:** Source code hosting and repository management.
-* **Render:** Website deployment and public hosting.
+- Analyze electric vehicle market data.
+- Compare different manufacturers and vehicle categories.
+- Study vehicle prices and driving range.
+- Understand geographical market distribution.
+- Analyze sales trends and market share.
+- Examine motor power and battery degradation.
+- Create an interactive Tableau Dashboard and Story.
+- Develop and deploy a website to access the visualizations.
 
-## 5. Project Development Procedure
+4. Dataset
 
-### Step 1: Problem Identification
+The project uses an Electric Vehicle Market Classification Dataset containing two files:
 
-The first step was to identify the need to understand EV market patterns and present the information in a clear, visual format.
+- EV Market Train
+- EV Market Test
 
-### Step 2: Data Collection
+Important attributes include manufacturer, model, category, price, battery capacity, driving range, manufacturing country, battery type, model year, annual sales, horsepower, and battery degradation.
 
-The dataset provided for the project was used as the source of information. It contained data relevant to electric vehicle market analysis.
+5. Tools and Technologies
 
-### Step 3: Data Inspection and Preprocessing
+Technology| Purpose
+Tableau| Data analysis and visualization
+HTML| Website structure
+CSS| Website design and styling
+JavaScript| Website functionality
+Visual Studio Code| Code editing
+Git| Version control
+GitHub| Source code hosting
+Render| Website deployment
 
-The dataset needed to be reviewed to understand its structure, column names, data types, and suitability for visualization.
+6. Project Visualizations
 
-The preprocessing stage involves checking for missing values, duplicate records, inconsistent entries, and incorrect data types. Any required corrections should be made before creating the visualizations.
+The Tableau workbook includes the following visualizations:
 
-### Step 4: Data Analysis in Tableau
+1. Top Summary KPIs
+2. Global EV Map
+3. Manufacturer Market Share
+4. Market Share by Region
+5. Price vs Range
+6. Sales by Category
+7. Sales Trend by Year
+8. Top Models by Horsepower / Motor Power
+9. Battery Degradation Matrix
 
-The dataset was used to explore different aspects of the EV market, including sales, manufacturers, pricing, battery capacity, driving range, customer ratings, and estimated environmental benefits.
+These visualizations help users understand different aspects of the electric vehicle market.
 
-### Step 5: Dashboard Development
+7. Dashboard and Tableau Story
 
-Two Tableau dashboards were developed to present the analysis through charts and visualizations.
+Interactive Dashboard
 
-**Dashboard 1 — EV Market Overview**
+A Tableau Dashboard combines multiple visualizations into one view. It provides an overview of EV market performance, sales, pricing, vehicle performance, battery information, and market share.
 
-This dashboard focuses on an overview of EV market performance, including manufacturer sales, average prices, and other market indicators.
+Tableau Story
 
-**Dashboard 2 — EV Market Analysis**
+A Tableau Story presents visualizations in a sequence. It explains the market analysis step by step, making the information easier to follow.
 
-This dashboard provides additional views of EV categories, battery technologies, customer ratings, and market trends.
+Both visualizations are published on Tableau Public.
 
-### Step 6: Tableau Story Development
-
-A Tableau Story was created to organize the visualizations into a sequence of scenes. It presents the analysis in a structured way, helping viewers explore market patterns, vehicle performance, customer trends, and environmental benefits.
-
-### Step 7: Website Development
+8. Website Development
 
 A website was developed using HTML, CSS, and JavaScript.
 
 The website includes:
 
-* A homepage introducing the project.
-* An overview of the project's objectives.
-* An embedded Tableau Dashboard 1.
-* An embedded Tableau Dashboard 2.
-* An embedded Tableau Story.
-* A conclusion summarizing the purpose of the project.
+- A landing page introducing the project.
+- A Tableau Story section.
+- An Interactive Dashboard section.
+- Links to the published visualizations on Tableau Public.
 
-### Step 8: Version Control Using Git and GitHub
+The website provides a simple way to access the project.
 
-The website source files were managed using Git in Visual Studio Code.
+9. Version Control and Deployment
 
-The project was initialized as a Git repository, the files were staged and committed, and the repository was connected to GitHub. The source files were then pushed to a public GitHub repository.
+Git was used to manage the website source code and track changes.
 
-### Step 9: Website Deployment Using Render
+GitHub was used to store and manage the project files in a public repository.
 
-The GitHub repository was connected to Render as a static website.
+Render was used to deploy the website and make it accessible through a public link.
 
-The deployment was configured to serve the website files directly. After successful deployment, a public URL was generated to make the website accessible online.
+10. Project Links
 
-### Step 10: Testing and Verification
-
-The deployed website was opened in a browser to check its layout, navigation, and access to the embedded Tableau visualizations.
-
-The Tableau dashboards and story depend on their corresponding published Tableau views being accessible to the public.
-
-## 6. Project Links
-
-**Live Website:**
+demo link:
 
 
-**Demo link**
+Live Website:
 
 
-## 7. Key Areas of Analysis
+Tableau Public:
+Available through the Story and Dashboard sections of the live website.
 
-The project explores the following areas:
+11. Conclusion
 
-* EV manufacturer sales and market performance.
-* Vehicle pricing and comparisons.
-* Battery capacity and driving range.
-* EV categories and battery technologies.
-* Customer ratings.
-* Estimated environmental benefits and CO₂ savings.
+This project demonstrates how data analysis and visualization can be used to understand the electric vehicle market.
 
-Specific conclusions should be drawn from the actual values and patterns visible in the dashboards.
+It combines Tableau, website development, version control, and deployment to create an accessible platform for exploring EV market information.
 
-## 8. Project Outcomes
+Through this project, practical knowledge of data visualization and web development was gained.
 
-The project brings data analysis and web development together in one accessible platform. Tableau dashboards allow users to explore the available data, while the Tableau Story presents the analysis in a structured sequence.
+12. Future Scope
 
-The deployed website makes these visualizations accessible through a single public link.
+The project can be further improved by:
 
-## 9. Conclusion
-
-The Electric Vehicle Market Analysis project demonstrates how data visualization can help communicate information about the electric vehicle market. Tableau was used to create interactive dashboards and a data story, while HTML, CSS, and JavaScript were used to develop the website.
-
-GitHub was used to host and manage the source code, and Render was used to deploy the website.
-
-The project provides a practical introduction to data analysis, visualization, storytelling, version control, and website deployment.
-
-## 10. Future Scope
-
-The project can be improved by adding more recent EV data, additional filters, manufacturer comparisons, regional analysis, and further performanc
+- Adding more recent electric vehicle data.
+- Including additional market comparisons.
+- Adding more interactive filters.
+- Improving dashboard features.
+- Expanding the website with additional visualizations.
